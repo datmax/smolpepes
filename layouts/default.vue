@@ -1,7 +1,10 @@
 <template>
   <v-app dark>
+    <v-app-bar absolute app color="transparent" flat>
+      <v-row align="center" justify="center">Smolpepes</v-row>
+    </v-app-bar>
     <v-main>
-      <v-container fluid>
+      <v-container>
         <Nuxt />
       </v-container>
     </v-main>
@@ -15,11 +18,11 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <v-footer absolute app color="transparent">
-      <v-row align="center" justify="center" class="py-4">
+    <v-footer absolute app color="transparent" class="py-6">
+      <v-row align="center" justify="center">
         <span>
           <a href="https://twitter.com/smolpepes">
-            <v-icon>mdi-twitter</v-icon>
+            <v-icon color="green">mdi-twitter</v-icon>
           </a>
         </span>
       </v-row>
